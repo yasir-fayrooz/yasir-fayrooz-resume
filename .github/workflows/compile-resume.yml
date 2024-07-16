@@ -29,7 +29,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: PDF
-          path: yasir-fayrooz-latest-resume.pdf
+          path: cv.pdf
       
       - name: Publish PDF to repo
         uses: stefanzweifel/git-auto-commit-action@v4
