@@ -21,6 +21,8 @@ jobs:
         uses: xu-cheng/latex-action@v2
         with:
           root_file: cv.tex
+          extra_fonts: |
+            ./fonts/*.otf
           latexmk_use_lualatex: true
           
       - name: Upload PDF file
